@@ -60,7 +60,7 @@ btnHold.addEventListener('click', function() {
     score[activePlayer] += currentScore; 
     document.getElementById(`score--${activePlayer}`).textContent = score[activePlayer];
     // Check if player's score is >= 100
-    if (score[activePlayer] >= 10) {
+    if (score[activePlayer] >= 100) {
         playing = false;
         diceRoll.classList.add('hidden');
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
