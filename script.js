@@ -1,6 +1,6 @@
 'use strict';
 let playerZero = document.getElementById('name--0').textContent = prompt('Please enter the name of the player 1');
-let playerOne = document.getElementById('name--1').textContent = prompt('Please enter the name of the player 1');
+let playerOne = document.getElementById('name--1').textContent = prompt('Please enter the name of the player 2');
 let scoreZero = document.querySelector('#score--0');
 let scoreOne = document.querySelector('#score--1');
 let currentScore = 0;
